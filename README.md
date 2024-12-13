@@ -17,7 +17,7 @@ As SmartShop grows, this documentation will make it easier to upgrade or scale t
 
 With the above listed, I proceeded to create a new repository with a README.md, initialized and named : "LITA_EC2_INSTANCE_PROJECT_TEJIRI_AGANBI" in my system's GitHub from which I push changes made with notepad++ to the origin on the net. I then clicked on "published now".
 Below is a picture of the created repository
-![Repository Configuration](GithubRepositoryCreation.jpg)
+![Repository Configuration](/GithubRepositoryCreation.jpg)
 
 ## Creating The VPC
 The VPC was created in the AWS platform under the region of North Virginia, choosing the IPv4 CIDR Classless Inter-Domain Routing) block of 10.0.0.0/16

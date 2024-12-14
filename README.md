@@ -91,17 +91,19 @@ The instance launched and after a few minutes of refreshing, the 2/2 checks pass
 ## INSTALLING APACHE WEB SERVER TO MY INSTANCE.
 Under the SSH tab of my instance, I copied the code "ssh -i "Tejiri_Lita_kp.pem" ec2-user@ec2-52-90-180-115.compute-1.amazonaws.com"
 ![Keypair to Instance](/ConnectingInstancetokeypair.jpg)
+
 I navigated to my computer's download folder, with my mouse, I right-clicked on an empty space and proceeded to select "git bash here". 
 I pasted the copied code in the gitbash window opened and clicked "enter". The command ran and typed in "yes" to the question asked and clicked "enter"
 The command ran and typed in "yes" to the question asked and clicked "enter" 
 It ran the command and produced a bird like command on the gitbash window, showing the details of my EC2 instance and overall confirming my EC2 instance has been connected.
-![Installing Apache Web Server] (/InstallingApacheOnEC2Instance.jpg)
+![Installing Apache Web Server](/InstallingApacheOnEC2Instance.jpg)
+
 I proceeded to run the following commands to install Apache:
 "sudo yum update -y" Enter key
 This  command returned as "done" with no packages marked for update.
 "sudo yum install https -y". Enter key.
 This installed Apache and left a feedback stating "installed"
-![Installing Apache Web Server] (/ApacheInstallationCompleted.jpg)
+![Installing Apache Web Server](/ApacheInstallationCompleted.jpg)
 "sudo systemctl start httpd"
 "sudo systemctl enable httpd"
 This finished the set up and I proceeded to confirm the Apache is running as should be by visiting the instance's public IP address "52.90.180.115" using a Chrome browser.
